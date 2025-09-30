@@ -1,41 +1,21 @@
-# Prerequisites
-*.d
+# the composer package lock file and install directory
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# /composer.lock
+/fuel/vendor
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# the fuelphp document
+/docs/
 
-# Precompiled Headers
-*.gch
-*.pch
+# you may install these packages with `oil package`.
+# http://fuelphp.com/docs/packages/oil/package.html
+# /fuel/packages/auth/
+# /fuel/packages/email/
+# /fuel/packages/oil/
+# /fuel/packages/orm/
+# /fuel/packages/parser/
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# dynamically generated files
+/fuel/app/logs/*/*/*
+/fuel/app/cache/*/*
+/fuel/app/config/crypt.php
