@@ -1,7 +1,7 @@
 # file: bgmi_proto.py
 import pygame, sys
 pygame.init()
-WIDTH, HEIGHT = 900, 600
+WIDTH, HEIGHT = 9000, 9000
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 24)
